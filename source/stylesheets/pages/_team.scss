@@ -4,6 +4,7 @@
   border-style: solid;
   border-color: crimson;
 }
+
 .team{
   margin: 60px;
   height: 60vh;
@@ -19,4 +20,20 @@
     font-weight: bold;
     font-family: helvetica;
   }
+  &:hover {
+     color: darken($red, 20%);
+     opacity: 0.8;
+     h1, h2, p {
+      font-size: 55px;
+      color: $yellow;
+     }
+    }
+}
+
+.team-title{
+  color:$red;
+  font-size: 30px;
+  font-weight: strong;
+  margin-bottom: 30px;
+  text-align: center;
 }

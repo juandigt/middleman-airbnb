@@ -9,19 +9,21 @@ title: MIO - Le Wagon - Middleman
     <%= image_tag "logo.png", width: "200" %>
     <p>
       Aquí es donde empezamos
+      <br>
       Middleman is now running!
     </p>
     <p >
       <%= link_to "More about this template", "about.html" %>
     </p>
-    <p class="btn btn-primary color:white" >
+    <p class="btn btn-primary" >
+
       <%= link_to "The awesome team of today!!", "team.html" %>
     </p>
     <br><br>
-    <a href="/team.html" class="btn btn-success" role="button">The awesome team of today!!</a>
+    <a href="/team.html" class="btn btn-danger" role="button">The awesome team of today!!</a>
   </div>
 </div>
 <div >
-  <h2 class="team-title">The most popular cities where we are</h2>
+  <h2 class="team-title"> <i class="fa fa-star"></i> The most popular cities where we are <i class="fa fa-star"></i></h2>
 </div>
     <%= partial "layouts/cards" %>
