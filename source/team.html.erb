@@ -1,0 +1,19 @@
+---
+title: The team!!
+---
+
+
+<div class="team">
+
+  <h2> The awesome team of today!!</h2>
+  <p><%= link_to 'Anyway', 'http://mysite.com' %></p>
+  <ul class="list-inline text-center">
+    <% ["tanjako", "juandigt"].each do |gh_username| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+        <h3><%= gh_username.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
